@@ -1,0 +1,196 @@
+/* Navbar */
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(img/bg.png);
+  background-size: cover;
+  height: 640px;
+}
+
+.jumbotron .display-4 {
+  color: black;
+  text-align: start;
+  margin-top: 200px;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Info Panel */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  background-color: white;
+  padding: 30px;
+}
+
+.info-panel img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.info-panel h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  color: #acacac;
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+/* Kampus */
+.kampus {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.kampus h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.kampus h3 span {
+  font-weight: 500;
+}
+
+.kampus p {
+  font-size: 18px;
+  color: #acacac;
+  font-weight: 200;
+  margin: 25px 0;
+}
+
+.kampus img {
+  border-radius: 12px;
+}
+
+/* Rekomendasi Kampus */
+.rekom {
+  margin-top: 40px;
+}
+
+.univ .inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+
+.univ img {
+  height: 200px;
+}
+
+.univ {
+  margin-left: 14px;
+}
+
+.jurusan {
+  margin-left: 22px;
+}
+
+.jurusan img {
+  height: 120px;
+}
+
+.jurusan p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rekom {
+  margin-top: 5%;
+}
+
+#info {
+  background-color: #a2d9ff;
+}
+
+#info img {
+  width: 350px;
+  height: 220px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#info .atas {
+  margin-top: 50px;
+}
+
+#info .bawah {
+  margin-top: 50px;
+}
+
+.kontak {
+  margin-top: 5%;
+}
+
+.kontak img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.isi {
+  margin-top: 8%;
+}
+
+.footer {
+  background-color: #a2d9ff;
+}
+
+.pagination {
+  margin-top: 3%;
+}
+
+/* Utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: black !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover {
+    border-bottom: 3px solid #0b63dc;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px;
+  }
+
+  .kampus {
+    text-align: left;
+  }
+}
